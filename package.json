@@ -24,13 +24,9 @@
   "homepage": "https://github.com/funcionanonima/store#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-<<<<<<< HEAD
-    "express": "^4.17.1"
-=======
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "uuid": "^3.3.2"
->>>>>>> BASICO_EXPRESS
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
