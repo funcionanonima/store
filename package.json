@@ -1,0 +1,24 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "store based on API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/funcionanonima/store.git"
+  },
+  "keywords": [
+    "NODE",
+    "JS",
+    "EXPRESS"
+  ],
+  "author": "cdgaviria40@misena.edu.co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/funcionanonima/store/issues"
+  },
+  "homepage": "https://github.com/funcionanonima/store#readme"
+}
