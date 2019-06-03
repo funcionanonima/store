@@ -4,7 +4,8 @@
   "description": "store based on API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon /index.js",
+    "start": "node /index.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,11 @@
   "homepage": "https://github.com/funcionanonima/store#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
   }
 }
