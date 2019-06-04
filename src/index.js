@@ -9,7 +9,7 @@ const app = express()
 app.use(bodyParser.json())
 app.use(morgan('dev'))
 
-app.use('/products', productsRouter)
+app.use('/api/products', productsRouter)
 
 app.listen(3000, () => {
     console.log('Corriendo server')
