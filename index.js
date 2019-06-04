@@ -65,6 +65,15 @@ app.route('/products/:id')
             res.status(404).send(`El producto con Id ${id}, no se encuentra`)
         }
     })
+    .delete((req, res) => {
+        let delProd = _.findIndex(products, product => product.id == req.params.id)
+        if(delProd === -1){
+            res.status(404).send(`Producto con id: ${req.params.id} no existe`)
+            return
+        }
+        let deleted = products.splice(delProd, 1)
+        res.json(deleted)
+    })
 
 app.get('/', (req, res) => {
     res.send('api de storeZ')
