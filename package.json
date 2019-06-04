@@ -4,8 +4,8 @@
   "description": "store based on API",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon /index.js",
-    "start": "node /index.js"
+    "dev": "nodemon src",
+    "start": "node src"
   },
   "repository": {
     "type": "git",
