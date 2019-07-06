@@ -1,33 +1,17 @@
 'use strict'
 
 const express = require('express')
+//uto underscore
 const _ = require('underscore')
 //id universal unico
 const uuidv4 = require('uuid/v4')
-const Joi = require('joi')
+//traer el middleware
+const validateProduct = require('./productsValidate')
 
 const products = require('./../../../database').products
 const productsRouter = express.Router()
 
-const bluePrintProduct = Joi.object().keys({
-    title: Joi.string().max(100).required(),
-    price: Joi.number().positive().precision(2).required(),
-    denomination: Joi.string().length(3).uppercase()
-})
-
-const validateProduct = (req, res, next) => {   
-
-    let result = Joi.validate(req.body, bluePrintProduct, {abortEarly:false, convert:false})
-    if(result.error === null){
-        next()
-    }else{
-        let validationErrors = result.error.details.reduce((acumulator, error) => {
-            return acumulator + `[${error.message}]`
-        }, "")
-        res.status(404).send(`Errores: ${validationErrors}`)
-    }
-}
-
+//Metodos HTTP para las rutas RESt
 productsRouter.get('/',(req, res) => {
     res.json(products)
 })
