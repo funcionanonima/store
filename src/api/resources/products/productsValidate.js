@@ -2,6 +2,7 @@
 
 //crea BLUEPRINTS O PLANOS de los modelos para validar
 const Joi = require('joi')
+const log = require('./../../../../utils/logger')
 
 //Crear plano para usar en la validacion
 const bluePrintProduct = Joi.object().keys({
@@ -19,6 +20,8 @@ module.exports = (req, res, next) => {
         let validationErrors = result.error.details.reduce((acumulator, error) => {
             return acumulator + `[${error.message}]`
         }, "")
+        //LOG
+        log.warn(`No pasó validacion`, req.body, validationErrors)
         res.status(404).send(`Errores: ${validationErrors}`)
     }
 }

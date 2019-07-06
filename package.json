@@ -24,11 +24,13 @@
   "homepage": "https://github.com/funcionanonima/store#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "colors": "^1.3.3",
     "express": "^4.17.1",
     "joi": "^14.3.1",
     "morgan": "^1.9.1",
     "underscore": "^1.9.1",
-    "uuid": "^3.3.2"
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

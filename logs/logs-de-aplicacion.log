@@ -1,0 +1,27 @@
+[2019-07-06 15:14:52] info: [33mHolita advertencia[39m
+[2019-07-06 15:14:52] debug: [36mSoy un debug[39m
+[2019-07-06 15:14:52] error: [31mSoy un pto error[39m
+[2019-07-06 15:22:16] info: function trim() { [native code] }
+[2019-07-06 15:22:24] info: function trim() { [native code] }
+[2019-07-06 15:22:40] info: [0mGET /api/products [32m200 [0m2.910 ms - 197[0m
+[2019-07-06 15:22:47] info: [0mPOST /api/products [32m201 [0m8.957 ms - 90[0m
+[2019-07-06 15:22:54] info: [0mGET /api/products [32m200 [0m0.280 ms - 288[0m
+[2019-07-06 15:22:54] info: [0mGET /api/products [32m200 [0m0.322 ms - 288[0m
+[2019-07-06 15:22:55] info: [0mGET /api/products [32m200 [0m0.177 ms - 288[0m
+[2019-07-06 15:22:55] info: [0mGET /api/products [32m200 [0m0.240 ms - 288[0m
+[2019-07-06 15:22:55] info: [0mGET /api/products [32m200 [0m0.244 ms - 288[0m
+[2019-07-06 15:22:56] info: [0mGET /api/products [32m200 [0m0.172 ms - 288[0m
+[2019-07-06 15:22:56] info: [0mGET /api/products [32m200 [0m0.184 ms - 288[0m
+[2019-07-06 15:22:56] info: [0mGET /api/products [32m200 [0m0.169 ms - 288[0m
+[2019-07-06 15:22:56] info: [0mGET /api/products [32m200 [0m0.167 ms - 288[0m
+[2019-07-06 15:22:57] info: [0mGET /api/products [32m200 [0m0.233 ms - 288[0m
+[2019-07-06 15:22:57] info: [0mGET /api/products [32m200 [0m0.177 ms - 288[0m
+[2019-07-06 15:22:57] info: [0mGET /api/products [32m200 [0m0.233 ms - 288[0m
+[2019-07-06 15:22:58] info: [0mGET /api/products [32m200 [0m0.159 ms - 288[0m
+[2019-07-06 15:26:56] info: Producto agregado
+[2019-07-06 15:26:56] info: [0mPOST /api/products [32m201 [0m15.110 ms - 90[0m
+[2019-07-06 15:27:11] info: Producto agregado
+[2019-07-06 15:27:11] info: [0mPOST /api/products [32m201 [0m15.588 ms - 90[0m
+[2019-07-06 15:31:52] info: Producto con Id [2], editado
+[2019-07-06 15:31:52] info: [0mPUT /api/products/2 [32m201 [0m16.525 ms - 72[0m
+[2019-07-06 15:32:02] info: [0mGET /api/products [32m200 [0m0.491 ms - 204[0m

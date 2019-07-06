@@ -7,6 +7,7 @@ const _ = require('underscore')
 const uuidv4 = require('uuid/v4')
 //traer el middleware
 const validateProduct = require('./productsValidate')
+const log = require('./../../../../utils/logger')
 
 const products = require('./../../../database').products
 const productsRouter = express.Router()
@@ -21,6 +22,8 @@ productsRouter.post('/', validateProduct, (req, res) => {
 
     newProduct.id = uuidv4()
     products.push(newProduct)
+    //LOG
+    log.info("Producto agregado", newProduct)
     res.status(201).json(newProduct)
 })
 
@@ -31,19 +34,20 @@ productsRouter.post('/:id', (req, res) => {
             return
         }
     }
-        //not found
-        res.status(404).send(`El producto con Id ${req.params.id}, no se encuentra`)
+    //not found
+    res.status(404).send(`El producto con Id ${req.params.id}, no se encuentra`)
     })
 
 productsRouter.put('/:id', validateProduct, (req, res) => {
     let id = req.params.id
     let updProduct = req.body  
-
     let index = _.findIndex(products, product => product.id == id)
     if(index !== -1){
         //update
         updProduct.id = id
         products[index] = updProduct
+        // LOG
+        log.info(`Producto con Id [${id}], editado`, updProduct)
         res.status(201).json(updProduct)
     }else{
         res.status(404).send(`El producto con Id ${id}, no se encuentra`)
@@ -53,6 +57,8 @@ productsRouter.put('/:id', validateProduct, (req, res) => {
 productsRouter.delete('/:id', (req, res) => {
     let delProd = _.findIndex(products, product => product.id == req.params.id)
     if(delProd === -1){
+        //LOG
+        log.warn(`Producto con id [${req.params.id}], no existe`)
         res.status(404).send(`Producto con id: ${req.params.id} no existe`)
         return
     }
