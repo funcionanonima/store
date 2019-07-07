@@ -7,21 +7,14 @@ const productsRouter = require('./api/resources/products/productsRoutes')
 const usersRouter = require('./api/resources/users/usersRoutes')
 const logger = require('./../utils/logger')
 const colors = require('colors')
+const auth = require('./api/libs/auth')
 
-//modulo usuarios
+
 const passport = require('passport')
+//BasicStrategy metodo simple de autenticacion de logeo de passport
 const BasicStrategy = require('passport-http').BasicStrategy
-
 //passprot hace todo econ el servicio de BASIC STARTEGY
-passport.use(new BasicStrategy(
-    (username, password, done) => {
-        if(username.valueOf() === 'oz' && password.valueOf() === '123'){
-            return done(null, true)
-        }else{
-            return done(null, false)
-        }
-    }
-))
+passport.use(new BasicStrategy(auth))
 
 //Instancia exress, bodyparser, morgan
 const app = express()

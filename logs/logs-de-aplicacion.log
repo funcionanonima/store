@@ -479,3 +479,155 @@ ReferenceError: productsRouter is not defined
     at Function.Module._load (internal/modules/cjs/loader.js:598:3)
     at Function.Module.runMain (internal/modules/cjs/loader.js:862:12)
     at internal/main/run_main_module.js:21:11
+[2019-07-07 16:54:29] info: [0mGET /api/users [32m200 [0m3.226 ms - 2[0m
+[2019-07-07 16:58:13] info: [0mPOST /api/users [31m500 [0m20.828 ms - 1348[0m
+[2019-07-07 16:58:59] info: [0mPOST /api/users [31m500 [0m1.244 ms - 1348[0m
+[2019-07-07 16:59:30] info: [0mGET /api/users [32m200 [0m0.250 ms - 2[0m
+[2019-07-07 17:00:09] info: [0mPOST /api/users [31m500 [0m0.506 ms - 1348[0m
+[2019-07-07 17:00:49] info: [0mPOST /api/users [31m500 [0m11.525 ms - 1347[0m
+[2019-07-07 17:01:02] info: [0mPOST /api/users [32m201 [0m169.280 ms - 28[0m
+[2019-07-07 17:01:12] info: Usuario falló la validacion
+[2019-07-07 17:01:12] info: [0mPOST /api/users [33m400 [0m2.067 ms - 11[0m
+[2019-07-07 17:02:12] info: Usuario falló la validacion
+[2019-07-07 17:02:12] info: [0mPOST /api/users [33m400 [0m14.978 ms - 11[0m
+[2019-07-07 17:02:17] error: uncaughtException: Invalid status code: Usuario creado existosamente
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: Usuario creado existosamente
+    at ServerResponse.writeHead (_http_server.js:208:11)
+    at ServerResponse.writeHead (E:\micodigo\js\nodeAPPDEL\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:199:8)
+    at write_ (_http_outgoing.js:597:9)
+    at ServerResponse.end (_http_outgoing.js:714:5)
+    at ServerResponse.send (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\response.js:158:21)
+    at bcrypt.hash (E:\micodigo\js\nodeAPPDEL\src\api\resources\users\usersRoutes.js:46:25)
+[2019-07-07 17:02:56] error: uncaughtException: Invalid status code: Usuario creado existosamente
+RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: Usuario creado existosamente
+    at ServerResponse.writeHead (_http_server.js:208:11)
+    at ServerResponse.writeHead (E:\micodigo\js\nodeAPPDEL\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:199:8)
+    at write_ (_http_outgoing.js:597:9)
+    at ServerResponse.end (_http_outgoing.js:714:5)
+    at ServerResponse.send (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\response.js:267:15)
+    at ServerResponse.send (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\response.js:158:21)
+    at bcrypt.hash (E:\micodigo\js\nodeAPPDEL\src\api\resources\users\usersRoutes.js:46:25)
+[2019-07-07 17:03:25] info: [0mPOST /api/users [32m201 [0m81.449 ms - 28[0m
+[2019-07-07 17:03:29] info: [0mGET /api/users [32m200 [0m1.064 ms - 114[0m
+[2019-07-07 17:04:02] info: [0mGET /api/users [32m200 [0m0.538 ms - 114[0m
+[2019-07-07 17:04:07] info: email o User existentes
+[2019-07-07 17:04:07] info: [0mPOST /api/users [33m409 [0m1.448 ms - 23[0m
+[2019-07-07 17:04:17] info: Usuario falló la validacion
+[2019-07-07 17:04:17] info: [0mPOST /api/users [33m400 [0m3.231 ms - 11[0m
+[2019-07-07 17:04:22] info: Usuario falló la validacion
+[2019-07-07 17:04:22] info: [0mPOST /api/users [33m400 [0m0.829 ms - 11[0m
+[2019-07-07 17:04:28] info: email o User existentes
+[2019-07-07 17:04:28] info: [0mPOST /api/users [33m409 [0m0.838 ms - 23[0m
+[2019-07-07 17:04:33] info: Usuario falló la validacion
+[2019-07-07 17:04:33] info: [0mPOST /api/users [33m400 [0m1.069 ms - 11[0m
+[2019-07-07 17:04:41] info: Usuario falló la validacion
+[2019-07-07 17:04:41] info: [0mPOST /api/users [33m400 [0m0.850 ms - 11[0m
+[2019-07-07 17:04:50] info: Usuario falló la validacion
+[2019-07-07 17:04:50] info: [0mPOST /api/users [33m400 [0m0.927 ms - 11[0m
+[2019-07-07 17:04:53] info: Usuario falló la validacion
+[2019-07-07 17:04:53] info: [0mPOST /api/users [33m400 [0m1.066 ms - 11[0m
+[2019-07-07 17:04:56] info: Usuario falló la validacion
+[2019-07-07 17:04:56] info: [0mPOST /api/users [33m400 [0m1.114 ms - 11[0m
+[2019-07-07 17:04:59] info: Usuario falló la validacion
+[2019-07-07 17:04:59] info: [0mPOST /api/users [33m400 [0m1.134 ms - 11[0m
+[2019-07-07 17:05:14] info: Usuario falló la validacion
+[2019-07-07 17:05:14] info: [0mPOST /api/users [33m400 [0m1.386 ms - 11[0m
+[2019-07-07 17:06:37] error: uncaughtException: Unexpected token return
+E:\micodigo\js\nodeAPPDEL\src\api\resources\users\usersValidate.js:17
+        res.error.details.map(error=> return error.message)
+                                      ^^^^^^
+
+SyntaxError: Unexpected token return
+    at Module._compile (internal/modules/cjs/loader.js:743:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\api\resources\users\usersRoutes.js:12:23)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+[2019-07-07 17:08:06] info: [0mPOST /api/users [31m500 [0m19.516 ms - 1292[0m
+[2019-07-07 17:08:37] info: Usuario falló la validacion
+[2019-07-07 17:08:37] info: [0mPOST /api/users [33m400 [0m14.798 ms - 11[0m
+[2019-07-07 17:09:07] info: [0mPOST /api/users [32m201 [0m60.078 ms - 28[0m
+[2019-07-07 17:09:14] info: [0mGET /api/users [32m200 [0m0.835 ms - 122[0m
+[2019-07-07 17:09:33] info: Usuario falló la validacion
+[2019-07-07 17:09:33] info: [0mPOST /api/users [33m400 [0m1.331 ms - 11[0m
+[2019-07-07 17:09:49] info: Usuario falló la validacion
+[2019-07-07 17:09:49] info: [0mPOST /api/users [33m400 [0m1.543 ms - 11[0m
+[2019-07-07 17:10:01] info: Usuario falló la validacion
+[2019-07-07 17:10:01] info: [0mPOST /api/users [33m400 [0m1.073 ms - 11[0m
+[2019-07-07 17:10:10] info: Usuario falló la validacion
+[2019-07-07 17:10:10] info: [0mPOST /api/users [33m400 [0m1.059 ms - 11[0m
+[2019-07-07 17:10:26] info: Usuario falló la validacion
+[2019-07-07 17:10:26] info: [0mPOST /api/users [33m400 [0m1.093 ms - 11[0m
+[2019-07-07 17:10:32] info: Usuario falló la validacion
+[2019-07-07 17:10:32] info: [0mPOST /api/users [33m400 [0m1.142 ms - 11[0m
+[2019-07-07 17:10:34] info: Usuario falló la validacion
+[2019-07-07 17:10:34] info: [0mPOST /api/users [33m400 [0m0.903 ms - 11[0m
+[2019-07-07 17:11:06] info: [0mGET /api/users [32m200 [0m0.320 ms - 122[0m
+[2019-07-07 17:12:24] info: Usuario falló la validacion
+[2019-07-07 17:12:24] info: [0mPOST /api/users [33m400 [0m0.787 ms - 11[0m
+[2019-07-07 17:12:55] info: [0mPOST /api/users [32m201 [0m88.349 ms - 28[0m
+[2019-07-07 17:13:18] info: [0mGET /api/users [32m200 [0m0.640 ms - 122[0m
+[2019-07-07 17:13:25] info: email o User existentes
+[2019-07-07 17:13:25] info: [0mPOST /api/users [33m409 [0m0.872 ms - 23[0m
+[2019-07-07 17:13:32] info: [0mPOST /api/users [32m201 [0m57.248 ms - 28[0m
+[2019-07-07 17:13:36] info: email o User existentes
+[2019-07-07 17:13:36] info: [0mPOST /api/users [33m409 [0m1.102 ms - 23[0m
+[2019-07-07 17:13:41] info: email o User existentes
+[2019-07-07 17:13:41] info: [0mPOST /api/users [33m409 [0m0.972 ms - 23[0m
+[2019-07-07 17:13:45] info: [0mPOST /api/users [32m201 [0m75.725 ms - 28[0m
+[2019-07-07 17:13:49] info: [0mGET /api/users [32m200 [0m0.309 ms - 370[0m
+[2019-07-07 17:14:30] info: Usuario falló la validacion
+[2019-07-07 17:14:30] info: [0mPOST /api/users [33m400 [0m22.133 ms - 11[0m
+[2019-07-07 17:15:02] info: Usuario falló la validacion
+[2019-07-07 17:15:02] info: [0mPOST /api/users [33m400 [0m2.216 ms - 11[0m
+[2019-07-07 17:15:03] info: Usuario falló la validacion
+[2019-07-07 17:15:03] info: [0mPOST /api/users [33m400 [0m1.210 ms - 11[0m
+[2019-07-07 17:15:04] info: Usuario falló la validacion
+[2019-07-07 17:15:04] info: [0mPOST /api/users [33m400 [0m1.130 ms - 11[0m
+[2019-07-07 17:15:04] info: Usuario falló la validacion
+[2019-07-07 17:15:04] info: [0mPOST /api/users [33m400 [0m0.946 ms - 11[0m
+[2019-07-07 17:15:05] info: Usuario falló la validacion
+[2019-07-07 17:15:05] info: [0mPOST /api/users [33m400 [0m1.015 ms - 11[0m
+[2019-07-07 17:19:55] error: uncaughtException: HTTP Basic authentication strategy requires a verify function
+Error: HTTP Basic authentication strategy requires a verify function
+    at new BasicStrategy (E:\micodigo\js\nodeAPPDEL\node_modules\passport-http\lib\passport-http\strategies\basic.js:46:22)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:16:14)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:862:12)
+    at internal/main/run_main_module.js:21:11
+[2019-07-07 17:27:00] info: [0mGET / [33m401 [0m1.447 ms - -[0m
+[2019-07-07 17:27:39] info: [0mPOST /api/users [32m201 [0m90.470 ms - 28[0m
+[2019-07-07 17:27:49] info: [0mGET / [33m401 [0m0.195 ms - -[0m
+[2019-07-07 17:28:10] info: usuario oz no existe. No pudo ser identificado
+[2019-07-07 17:28:10] info: [0mGET / [33m401 [0m3.152 ms - -[0m
+[2019-07-07 17:28:13] info: usuario aa no existe. No pudo ser identificado
+[2019-07-07 17:28:13] info: [0mGET / [33m401 [0m0.941 ms - -[0m
+[2019-07-07 17:28:28] info: [0mGET / [31m500 [0m1.404 ms - 1340[0m
+[2019-07-07 17:29:48] info: usuario ozz no existe. No pudo ser identificado
+[2019-07-07 17:29:48] info: [0mGET / [33m401 [0m6.641 ms - -[0m
+[2019-07-07 17:29:53] info: usuario ozz no existe. No pudo ser identificado
+[2019-07-07 17:29:53] info: [0mGET / [33m401 [0m0.930 ms - -[0m
+[2019-07-07 17:30:24] info: [0mGET /api/users [32m200 [0m3.915 ms - 2[0m
+[2019-07-07 17:30:51] info: [0mPOST /api/users [32m201 [0m83.625 ms - 28[0m
+[2019-07-07 17:30:54] info: [0mGET /api/users [32m200 [0m0.341 ms - 124[0m
+[2019-07-07 17:31:03] info: [0mGET / [33m401 [0m0.085 ms - -[0m
+[2019-07-07 17:31:06] info: Usuario admin no completo autenticacion. Contraseña incorrecta
+[2019-07-07 17:31:06] info: [0mGET / [33m401 [0m58.061 ms - -[0m
+[2019-07-07 17:31:16] info: usuario asdfre no existe. No pudo ser identificado
+[2019-07-07 17:31:16] info: [0mGET / [33m401 [0m0.650 ms - -[0m
+[2019-07-07 17:31:24] info: Usuario admin completo autenticacion
+[2019-07-07 17:31:24] info: [0mGET / [32m200 [0m58.970 ms - 16[0m
