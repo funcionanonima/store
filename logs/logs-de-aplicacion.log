@@ -25,3 +25,159 @@
 [2019-07-06 15:31:52] info: Producto con Id [2], editado
 [2019-07-06 15:31:52] info: [0mPUT /api/products/2 [32m201 [0m16.525 ms - 72[0m
 [2019-07-06 15:32:02] info: [0mGET /api/products [32m200 [0m0.491 ms - 204[0m
+[2019-07-06 15:35:38] warn: No pasó validacion
+[2019-07-06 15:35:38] info: [0mPOST /api/products [33m404 [0m13.300 ms - 45[0m
+[2019-07-06 15:36:00] info: [0mPUT /api/products/35 [33m404 [0m1.721 ms - 38[0m
+[2019-07-06 15:36:16] info: [0mGET /api/products [32m200 [0m0.954 ms - 197[0m
+[2019-07-06 15:36:20] info: Producto agregado
+[2019-07-06 15:36:20] info: [0mPOST /api/products [32m201 [0m1.566 ms - 91[0m
+[2019-07-06 15:36:24] info: [0mPOST /api/products/2 [32m200 [0m0.501 ms - 65[0m
+[2019-07-06 15:36:28] info: Producto con Id [2], editado
+[2019-07-06 15:36:28] info: [0mPUT /api/products/2 [32m201 [0m0.914 ms - 58[0m
+[2019-07-06 15:36:32] info: [0mDELETE /api/products/12 [32m200 [0m0.316 ms - 63[0m
+[2019-07-06 15:36:50] warn: Producto con id [1277], no existe
+[2019-07-06 15:36:50] info: [0mDELETE /api/products/1277 [33m404 [0m1.196 ms - 31[0m
+[2019-07-06 16:44:36] error: uncaughtException: users is not defined
+ReferenceError: users is not defined
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\database.js:15:15)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\api\resources\products\productsRoutes.js:12:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+[2019-07-06 18:43:19] error: uncaughtException: Cannot find module 'passport'
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:11:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-06 18:43:26] error: uncaughtException: Cannot find module 'passport'
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:11:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-06 18:50:23] error: uncaughtException: Cannot find module 'passport'
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:11:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-07 15:11:38] error: uncaughtException: Cannot find module 'passport'
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:11:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-07 15:12:07] error: uncaughtException: Cannot find module 'passport'
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:11:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-07 15:12:59] error: uncaughtException: Cannot find module 'passport'
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:11:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-07 15:13:03] error: uncaughtException: Cannot find module 'passport'
+Error: Cannot find module 'passport'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:11:18)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-07 15:14:02] error: uncaughtException: Cannot find module 'passport-http'
+Error: Cannot find module 'passport-http'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:649:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:575:25)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:12:23)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+[2019-07-07 15:14:27] info: [0mGET /api/products [32m200 [0m3.598 ms - 197[0m
+[2019-07-07 15:14:46] info: [0mGET / [32m200 [0m0.937 ms - 16[0m
+[2019-07-07 15:15:45] info: [0mGET / [33m401 [0m1.459 ms - -[0m
+[2019-07-07 15:16:40] info: [0mGET / [32m200 [0m2.840 ms - 16[0m
+[2019-07-07 15:16:40] info: [0mGET /favicon.ico [33m404 [0m1.225 ms - 150[0m
+[2019-07-07 15:16:47] info: [0mGET / [33m401 [0m1.480 ms - -[0m
+[2019-07-07 15:16:54] info: [0mGET / [36m304 [0m4.744 ms - -[0m
+[2019-07-07 15:16:59] info: [0mGET / [36m304 [0m0.516 ms - -[0m
+[2019-07-07 15:17:04] info: [0mGET / [36m304 [0m0.291 ms - -[0m
+[2019-07-07 15:17:37] info: [0mGET / [36m304 [0m0.318 ms - -[0m
+[2019-07-07 15:17:37] info: [0mGET / [36m304 [0m0.253 ms - -[0m
+[2019-07-07 15:17:39] info: [0mGET / [32m200 [0m0.388 ms - 16[0m
+[2019-07-07 15:17:39] info: [0mGET /favicon.ico [33m404 [0m1.158 ms - 150[0m
+[2019-07-07 15:17:42] info: [0mGET / [36m304 [0m0.287 ms - -[0m
+[2019-07-07 15:17:43] info: [0mGET / [36m304 [0m0.252 ms - -[0m
+[2019-07-07 15:17:43] info: [0mGET / [36m304 [0m0.247 ms - -[0m
+[2019-07-07 15:17:43] info: [0mGET / [36m304 [0m0.249 ms - -[0m
+[2019-07-07 15:18:07] info: [0mGET / [33m401 [0m0.141 ms - -[0m
+[2019-07-07 15:18:09] info: [0mGET / [33m401 [0m0.071 ms - -[0m
+[2019-07-07 15:18:09] info: [0mGET / [33m401 [0m0.099 ms - -[0m
+[2019-07-07 15:18:10] info: [0mGET / [33m401 [0m0.105 ms - -[0m
+[2019-07-07 15:18:11] info: [0mGET / [33m401 [0m0.088 ms - -[0m
+[2019-07-07 15:18:11] info: [0mGET / [33m401 [0m0.080 ms - -[0m
+[2019-07-07 15:18:12] info: [0mGET / [33m401 [0m0.076 ms - -[0m
+[2019-07-07 15:18:12] info: [0mGET / [33m401 [0m0.079 ms - -[0m
+[2019-07-07 15:18:17] info: [0mGET / [36m304 [0m0.245 ms - -[0m
+[2019-07-07 15:18:18] info: [0mGET / [36m304 [0m0.248 ms - -[0m
+[2019-07-07 15:18:18] info: [0mGET / [36m304 [0m1.039 ms - -[0m
+[2019-07-07 15:18:18] info: [0mGET / [36m304 [0m0.256 ms - -[0m
+[2019-07-07 15:18:18] info: [0mGET / [36m304 [0m0.243 ms - -[0m
+[2019-07-07 15:18:18] info: [0mGET / [36m304 [0m0.246 ms - -[0m
+[2019-07-07 15:18:18] info: [0mGET / [36m304 [0m0.251 ms - -[0m
+[2019-07-07 15:18:19] info: [0mGET / [36m304 [0m0.246 ms - -[0m
+[2019-07-07 15:18:19] info: [0mGET / [36m304 [0m0.239 ms - -[0m
+[2019-07-07 15:18:19] info: [0mGET / [36m304 [0m0.243 ms - -[0m
+[2019-07-07 15:18:41] info: [0mGET / [36m304 [0m0.231 ms - -[0m

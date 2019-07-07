@@ -7,6 +7,21 @@ const productsRouter = require('./api/resources/products/productsRoutes')
 const logger = require('./../utils/logger')
 const colors = require('colors')
 
+//modulo usuarios
+const passport = require('passport')
+const BasicStrategy = require('passport-http').BasicStrategy
+
+//passprot hace todo econ el servicio de BASIC STARTEGY
+passport.use(new BasicStrategy(
+    (username, password, done) => {
+        if(username.valueOf() === 'oz' && password.valueOf() === '123'){
+            return done(null, true)
+        }else{
+            return done(null, false)
+        }
+    }
+))
+
 //Instancia exress, bodyparser, morgan
 const app = express()
 app.use(bodyParser.json())
@@ -16,8 +31,15 @@ app.use(morgan('dev', {
     }
 }))
 
+//usar passport
+app.use(passport.initialize())
+
 //Rutas
 app.use('/api/products', productsRouter)
+
+app.get('/', passport.authenticate('basic', {session:false}), (req, res) => {
+    res.send('API de Productos')
+})
 
 //Server
 app.listen(3000, () => {

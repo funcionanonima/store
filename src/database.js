@@ -7,6 +7,10 @@ const products = [
     {id: '2', title: 'osogrizle', price: '919', denomination: 'USD'}
 ]
 
+const users = [
+
+]
+
 module.exports = {
-    products
+    products, users
 }
