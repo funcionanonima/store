@@ -4,6 +4,7 @@ const express = require('express')
 const morgan = require('morgan')
 const bodyParser = require('body-parser')
 const productsRouter = require('./api/resources/products/productsRoutes')
+const usersRouter = require('./api/resources/users/usersRoutes')
 const logger = require('./../utils/logger')
 const colors = require('colors')
 
@@ -36,6 +37,7 @@ app.use(passport.initialize())
 
 //Rutas
 app.use('/api/products', productsRouter)
+app.use('/api/users', usersRouter)
 
 app.get('/', passport.authenticate('basic', {session:false}), (req, res) => {
     res.send('API de Productos')
