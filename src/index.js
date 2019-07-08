@@ -30,7 +30,7 @@ app.use(passport.initialize())
 
 //Rutas
 app.use('/api/products', productsRouter)
-app.use('/api/users', usersRouter)
+app.use('/users', usersRouter)
 
 app.get('/', passport.authenticate('basic', {session:false}), (req, res) => {
     res.send('API de Productos')

@@ -631,3 +631,48 @@ Error: HTTP Basic authentication strategy requires a verify function
 [2019-07-07 17:31:16] info: [0mGET / [33m401 [0m0.650 ms - -[0m
 [2019-07-07 17:31:24] info: Usuario admin completo autenticacion
 [2019-07-07 17:31:24] info: [0mGET / [32m200 [0m58.970 ms - 16[0m
+[2019-07-07 20:01:49] info: [0mGET / [33m401 [0m1.569 ms - -[0m
+[2019-07-07 20:49:31] error: uncaughtException: Route.post() requires a callback function but got a [object Object]
+Error: Route.post() requires a callback function but got a [object Object]
+    at Route.(anonymous function) [as post] (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.(anonymous function) [as post] (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\api\resources\users\usersRoutes.js:24:13)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+[2019-07-07 20:50:11] error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as post] (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.(anonymous function) [as post] (E:\micodigo\js\nodeAPPDEL\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\api\resources\users\usersRoutes.js:24:13)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+[2019-07-07 21:18:46] error: uncaughtException: usersLoginValidate is not defined
+ReferenceError: usersLoginValidate is not defined
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\api\resources\users\usersRoutes.js:54:27)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:810:10)
+    at Module.load (internal/modules/cjs/loader.js:666:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:606:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:598:3)
+    at Module.require (internal/modules/cjs/loader.js:705:19)
+    at require (internal/modules/cjs/helpers.js:14:16)
+    at Object.<anonymous> (E:\micodigo\js\nodeAPPDEL\src\index.js:7:21)
+    at Module._compile (internal/modules/cjs/loader.js:799:30)
+[2019-07-07 21:20:26] info: [0mPOST /users/login [33m404 [0m1.638 ms - 151[0m
+[2019-07-07 21:20:55] info: [0mPOST /users/login [33m400 [0m10.815 ms - 66[0m
+[2019-07-07 21:22:00] info: usuario ozz no existe. No pudo ser identificado
+[2019-07-07 21:22:00] info: [0mPOST /users/login [33m400 [0m1.498 ms - 46[0m
+[2019-07-07 21:22:30] info: [0mPOST /api/users [33m404 [0m0.869 ms - 149[0m
+[2019-07-07 21:22:41] info: [0mPOST /users [32m201 [0m93.373 ms - 28[0m
+[2019-07-07 21:23:01] info: Usuario no identificado admin completo autenticacion exitosamente
+[2019-07-07 21:23:01] info: [0mPOST /users/login [32m200 [0m62.058 ms - 199[0m
